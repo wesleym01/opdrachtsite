@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <title>Shady's Testserver</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h3>Shady's Testserver</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startpagina</a></li>
+                <li><a href="informatie.html">Informatie</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h4>Neem contact met ons op</h4>
+        </header>
+    
+        <form action="send_email.php" method="post">
+            <label class="required" for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label class="required" for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label class="required" for="subject">Onderwerp:</label>
+            <input type="text" id="subject" name="subject" required>
+    
+            <label class="required" for="message">Bericht:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+    
+            <input type="submit" value="Verstuur" onclick="index.html">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Shady's Testserver Informatiepagina</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    flex-direction: column;
+    padding: 0;
+    display: flex;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1380&t=st=1689681967~exp=1689682567~hmac=d5c24ff523a3b8de6dd2230d4d913e4d5a828e43e87e80976cb8a94ad19efdca');
+}
+
+header {
+    background-color: #36363a;
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #96d8f1;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #36363a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666666;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+label.required::after {
+    content: " *";
+    color: red;
+}
